@@ -1,0 +1,43 @@
+# Oscura Midnight — locked Grok Build palette
+# Void backgrounds (OKLCH hue 265) with signature purple accents.
+# Gold (#EBD96E) is replaced by a pastel cream on the same hue 100 so it
+# sits with the purple instead of overpowering it.
+# Source: grok-build crates/codegen/xai-grok-pager-render/src/theme/oscura.rs
+
+mode = "dark"
+
+accent = "#9B7ECE"
+selection = "#242034"
+muted = "#5E646C"
+
+background = "#030304"
+dark_background = "#040507"
+darker_background = "#030304"
+lighter_background = "#0F1216"
+
+foreground = "#E4E4E4"
+dark_foreground = "#81868F"
+light_foreground = "#BEBEBE"
+bright_foreground = "#E4E4E4"
+
+selection_background = "#242034"
+selection_foreground = "#E4E4E4"
+
+hyprland_active_border = "rgba(9B7ECEee) rgba(C4A7E7ee)"
+hyprland_inactive_border = "rgba(343048aa)"
+
+red = "#DC5A64"
+yellow = "#EAE6C8"
+orange = "#EAD5AB"
+green = "#50B48C"
+cyan = "#7DCFDF"
+blue = "#9B7ECE"
+magenta = "#C4A7E7"
+brown = "#6E5A9A"
+
+bright_red = "#DC5A64"
+bright_yellow = "#E9E3BD"
+bright_green = "#8BC34A"
+bright_cyan = "#7DCFDF"
+bright_blue = "#C4A7E7"
+bright_magenta = "#C4A7E7"
