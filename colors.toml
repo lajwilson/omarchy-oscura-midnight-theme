@@ -1,43 +1,45 @@
-# Oscura Midnight — locked Grok Build palette
-# Void backgrounds (OKLCH hue 265) with signature purple accents.
-# Gold (#EBD96E) is replaced by a pastel cream on the same hue 100 so it
-# sits with the purple instead of overpowering it.
+# Oscura Midnight — Void
+# The super-dark cut of the Oscura Midnight palette. True-black surfaces
+# (OKLCH hue 265 tint reduced to a whisper) with the signature purple kept
+# as the only saturated hue family. The Oscura gold/cream/amber tones are
+# gone: warning, number, and "modified" roles now use a muted slate so the
+# whole scheme reads as one cool gradient of black -> purple -> lavender.
 # Source: grok-build crates/codegen/xai-grok-pager-render/src/theme/oscura.rs
 
 mode = "dark"
 
 accent = "#9B7ECE"
-selection = "#242034"
-muted = "#5E646C"
+selection = "#181521"
+muted = "#565A63"
 
-background = "#030304"
-dark_background = "#040507"
-darker_background = "#030304"
-lighter_background = "#0F1216"
+background = "#000000"
+dark_background = "#000000"
+darker_background = "#000000"
+lighter_background = "#0A0A0E"
 
-foreground = "#E4E4E4"
-dark_foreground = "#81868F"
-light_foreground = "#BEBEBE"
-bright_foreground = "#E4E4E4"
+foreground = "#D4D4DA"
+dark_foreground = "#74787F"
+light_foreground = "#A8A8B0"
+bright_foreground = "#E6E6EA"
 
-selection_background = "#242034"
-selection_foreground = "#E4E4E4"
+selection_background = "#181521"
+selection_foreground = "#D4D4DA"
 
 hyprland_active_border = "rgba(9B7ECEee) rgba(C4A7E7ee)"
-hyprland_inactive_border = "rgba(343048aa)"
+hyprland_inactive_border = "rgba(26232Faa)"
 
 red = "#DC5A64"
-yellow = "#EAE6C8"
-orange = "#EAD5AB"
+yellow = "#9BA3B0"
+orange = "#828A9C"
 green = "#50B48C"
 cyan = "#7DCFDF"
 blue = "#9B7ECE"
 magenta = "#C4A7E7"
-brown = "#6E5A9A"
+brown = "#3E3A4A"
 
-bright_red = "#DC5A64"
-bright_yellow = "#E9E3BD"
-bright_green = "#8BC34A"
-bright_cyan = "#7DCFDF"
+bright_red = "#E87C84"
+bright_yellow = "#C2C8D4"
+bright_green = "#6AC7A4"
+bright_cyan = "#9DDBEA"
 bright_blue = "#C4A7E7"
-bright_magenta = "#C4A7E7"
+bright_magenta = "#D8C2F2"

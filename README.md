@@ -1,6 +1,6 @@
-# Oscura Midnight
+# Oscura Midnight — Void
 
-An [Omarchy](https://omarchy.org/) theme from the **Grok Build Oscura Midnight** palette: void-black surfaces with a blue-purple tint (OKLCH hue 265), signature purple `#9B7ECE`, lavender, cyan, and a pastel cream yellow that sits with the purple instead of overpowering it.
+The super-dark cut of the **Grok Build Oscura Midnight** palette for [Omarchy](https://omarchy.org/). Surfaces drop to true black, and the warm Oscura gold/cream/amber tones are gone: warning, number, and "modified" roles use a muted slate, so the whole scheme reads as one cool gradient of black → purple → lavender, with lavender and cyan as the only accents.
 
 ## Install
 
@@ -16,14 +16,14 @@ The repo name follows Omarchy’s `omarchy-[name]-theme` convention, so it appea
 
 | Token | Hex | Role |
 | --- | --- | --- |
-| Background | `#030304` | Void base |
+| Background | `#000000` | True black void |
 | Accent | `#9B7ECE` | Signature purple |
 | Lavender | `#C4A7E7` | Bright purple |
 | Cyan | `#7DCFDF` | Links, running |
-| Cream | `#EAE6C8` | Pastel yellow (Oscura gold hue, low chroma) |
+| Slate | `#9BA3B0` | Muted neutral (replaces cream/gold) |
 | Teal | `#50B48C` | Success |
 | Rose | `#DC5A64` | Errors |
-| Text | `#E4E4E4` | Primary |
+| Text | `#D4D4DA` | Primary |
 
 `colors.toml` is the source of truth. Omarchy generates terminal, Neovim, Hyprland, VS Code, and shell configs from it when the theme is applied.
 
