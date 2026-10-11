@@ -1,6 +1,6 @@
 # Oscura Midnight — Void
 
-The super-dark cut of the **Grok Build Oscura Midnight** palette for [Omarchy](https://omarchy.org/). Surfaces drop to true black, and the warm Oscura gold/cream/amber tones are gone: warning, number, and "modified" roles use a muted slate, so the whole scheme reads as one cool gradient of black → purple → lavender, with lavender and cyan as the only accents.
+The super-dark cut of the **Grok Build Oscura Midnight** palette for [Omarchy](https://omarchy.org/). Surfaces drop to true black, and the warm Oscura gold/cream/amber tones are gone: warning, number, and "modified" roles use a muted slate. The ANSI axis is collapsed as well — green and cyan are one teal family, blue and magenta one purple family — so the whole scheme reads as a single cool gradient of black → purple → lavender.
 
 ## Install
 
@@ -18,29 +18,25 @@ The repo name follows Omarchy’s `omarchy-[name]-theme` convention, so it appea
 | --- | --- | --- |
 | Background | `#000000` | True black void |
 | Accent | `#9B7ECE` | Signature purple |
-| Lavender | `#C4A7E7` | Bright purple |
-| Cyan | `#7DCFDF` | Links, running |
+| Lavender | `#C4A7E7` | Bright purple (blue family) |
+| Magenta | `#B49BE0` | Purple family |
+| Teal | `#4FB8A6` | Success and links (green/cyan family) |
 | Slate | `#9BA3B0` | Muted neutral (replaces cream/gold) |
-| Teal | `#50B48C` | Success |
 | Rose | `#DC5A64` | Errors |
 | Text | `#D4D4DA` | Primary |
 
 `colors.toml` is the source of truth. Omarchy generates terminal, Neovim, Hyprland, VS Code, and shell configs from it when the theme is applied.
 
-## Backgrounds
+## Background
 
-Cycle with `Super + Ctrl + Space` or `omarchy theme bg next`.
+A single background ships with the theme: the official Omarchy wordmark on the void base. It is applied on `omarchy theme set`.
 
 | File | Resolution | Source |
 | --- | --- | --- |
-| `1-pine-stars.jpg` | 5564×3581 | [Joshua Woroniecki](https://unsplash.com/photos/3mXIZP6_6zY) / Unsplash |
-| `2-crescent-clouds.jpg` | 6000×4000 | [Xianyu hao](https://unsplash.com/photos/optolAaEARs) / Unsplash |
-| `3-dusk-mountains.jpg` | 6000×4000 | [Gena Okami](https://unsplash.com/photos/e0Km1pqqj-Y) / Unsplash |
-| `4-southern-sky.jpg` | 15204×4620 | ESO / H.H. Heyer, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 | `omarchy.png` | 3840×2160 | Official Omarchy wordmark on void |
 
-See [CREDITS.md](CREDITS.md) for full attribution.
+See [CREDITS.md](CREDITS.md) for attribution.
 
 ## License
 
-MIT for the theme files. Background photographs remain under their original licenses (Unsplash License or CC BY 4.0).
+MIT for the theme files.
