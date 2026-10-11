@@ -21,7 +21,7 @@ The repo name follows Omarchy’s `omarchy-[name]-theme` convention, so it appea
 | Lavender | `#C4A7E7` | Bright purple (blue family) |
 | Magenta | `#B49BE0` | Purple family |
 | Teal | `#4FB8A6` | Success and links (green/cyan family) |
-| Slate | `#9BA3B0` | Muted neutral (replaces cream/gold) |
+| Slate | `#A7A4C0` | Muted neutral (replaces cream/gold) |
 | Rose | `#DC5A64` | Errors |
 | Text | `#D4D4DA` | Primary |
 

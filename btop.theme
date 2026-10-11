@@ -39,7 +39,7 @@ theme[div_line]="#565A63"
 
 # Temperature graph color (Slate -> Slate -> Rose)
 theme[temp_start]="#4FB8A6"
-theme[temp_mid]="#9BA3B0"
+theme[temp_mid]="#A7A4C0"
 theme[temp_end]="#DC5A64"
 
 # CPU graph colors (Cyan -> Purple -> Lavender)
@@ -58,7 +58,7 @@ theme[cached_mid]="#6CC8BC"
 theme[cached_end]="#B49BE0"
 
 # Mem/Disk available meter
-theme[available_start]="#9BA3B0"
+theme[available_start]="#A7A4C0"
 theme[available_mid]="#DC5A64"
 theme[available_end]="#DC5A64"
 
@@ -68,7 +68,7 @@ theme[used_mid]="#6CC8BC"
 theme[used_end]="#9B7ECE"
 
 # Download graph colors
-theme[download_start]="#9BA3B0"
+theme[download_start]="#A7A4C0"
 theme[download_mid]="#DC5A64"
 theme[download_end]="#DC5A64"
 
