@@ -2,17 +2,18 @@
 # The super-dark cut of the Oscura Midnight palette. True-black surfaces
 # (OKLCH hue 265 tint reduced to a whisper) with the signature purple kept
 # as the only saturated hue family. The Oscura gold/cream/amber tones are
-# gone: warning, number, and "modified" roles now use a muted slate. The
-# ANSI axis is collapsed too — green/cyan are one teal family and
-# blue/magenta are one purple family — so the whole scheme reads as one
-# cool gradient of black -> purple -> lavender.
+# gone: warning, number, and "modified" roles now use a muted slate.
+# The ANSI axis stays in the theme's cool families but each slot is spaced
+# for terminals: green and cyan are two clearly separate teal tones, blue
+# and magenta two separate purple tones (dirs vs archives in ls), and every
+# bright is a lighter tint of its regular, readable on pure black.
 # Source: grok-build crates/codegen/xai-grok-pager-render/src/theme/oscura.rs
 
 mode = "dark"
 
 accent = "#9B7ECE"
 selection = "#181521"
-muted = "#565A63"
+muted = "#565463"
 
 background = "#000000"
 dark_background = "#000000"
@@ -30,18 +31,18 @@ selection_foreground = "#D4D4DA"
 hyprland_active_border = "rgba(9B7ECEee) rgba(C4A7E7ee)"
 hyprland_inactive_border = "rgba(26232Faa)"
 
-red = "#DC5A64"
-yellow = "#A7A4C0"
+red = "#E06C75"
+yellow = "#AFA7CC"
 orange = "#8F8BA8"
-green = "#4FB8A6"
-cyan = "#6CC8BC"
+green = "#3FB488"
+cyan = "#5CC9C5"
 blue = "#9B7ECE"
-magenta = "#B49BE0"
+magenta = "#C98FD9"
 brown = "#3E3A4A"
 
-bright_red = "#E88B92"
-bright_yellow = "#C4C0D8"
-bright_green = "#6FD0BE"
-bright_cyan = "#8AD8CF"
-bright_blue = "#B79BDF"
-bright_magenta = "#CFB8EC"
+bright_red = "#F0919C"
+bright_yellow = "#D0CBE0"
+bright_green = "#56CDA0"
+bright_cyan = "#86DBD6"
+bright_blue = "#BDA6E8"
+bright_magenta = "#DDB6EE"

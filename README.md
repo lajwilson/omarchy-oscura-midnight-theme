@@ -1,6 +1,6 @@
 # Oscura Midnight — Void
 
-The super-dark cut of the **Grok Build Oscura Midnight** palette for [Omarchy](https://omarchy.org/). Surfaces drop to true black, and the warm Oscura gold/cream/amber tones are gone: warning, number, and "modified" roles use a muted slate. The ANSI axis is collapsed as well — green and cyan are one teal family, blue and magenta one purple family — so the whole scheme reads as a single cool gradient of black → purple → lavender.
+The super-dark cut of the **Grok Build Oscura Midnight** palette for [Omarchy](https://omarchy.org/). Surfaces drop to true black, and the warm Oscura gold/cream/amber tones are gone: warning, number, and "modified" roles use a muted slate. The ANSI axis stays in the theme's cool families — green and cyan are two separated teal tones, blue and magenta two separated purple tones — each slot spaced in brightness so it reads clearly on the void black.
 
 ## Install
 
@@ -19,10 +19,11 @@ The repo name follows Omarchy’s `omarchy-[name]-theme` convention, so it appea
 | Background | `#000000` | True black void |
 | Accent | `#9B7ECE` | Signature purple |
 | Lavender | `#C4A7E7` | Bright purple (blue family) |
-| Magenta | `#B49BE0` | Purple family |
-| Teal | `#4FB8A6` | Success and links (green/cyan family) |
-| Slate | `#A7A4C0` | Muted neutral (replaces cream/gold) |
-| Rose | `#DC5A64` | Errors |
+| Magenta | `#C98FD9` | Purple family (archives) |
+| Teal | `#3FB488` | Green family (executables) |
+| Cyan | `#5CC9C5` | Cyan family (links) |
+| Slate | `#AFA7CC` | Muted neutral (replaces cream/gold) |
+| Rose | `#E06C75` | Errors |
 | Text | `#D4D4DA` | Primary |
 
 `colors.toml` is the source of truth. Omarchy generates terminal, Neovim, Hyprland, VS Code, and shell configs from it when the theme is applied.
